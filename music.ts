@@ -7,7 +7,7 @@ namespace music {
     //% block="set song $song bpm to $bpm" blockId=music_set_bpm
     //% song.shadow=music_song_field_editor
     //% bpm.min=0 bpm.max=65535 bpm.defl=120
-    //% group="Sounds"
+    //% group="Songs"
     //% weight=40
     export function setBPM(song: music.Playable, bpm: number) {
         if (song instanceof music.sequencer.Song) {
